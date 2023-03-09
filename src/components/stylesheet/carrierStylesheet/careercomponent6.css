@@ -1,0 +1,40 @@
+.life-sportsverse-section{
+    border: 2px solid #EA9528;
+    border-radius: 15px;
+    padding:40px 60px;
+}
+
+.life-heading{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 134%;
+    color: #373737;
+}
+.life-para{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 160%;
+color: #505050;
+}
+.life-sub-heading{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #505050;
+}
+
+.checked-img{
+    width:34px;
+    height: 34px;
+}
+@media (max-width:768px) {
+    .life-sportsverse-section{
+        padding:30px 10px;
+    }
+}

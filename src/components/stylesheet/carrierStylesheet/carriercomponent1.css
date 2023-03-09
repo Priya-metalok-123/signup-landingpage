@@ -1,0 +1,58 @@
+.careerComponet1 {
+  background-color: #232234;
+  min-height: 380px;
+  color: white;
+  background-image: url("../../background-images/loopimg.png");
+  width: 100%;
+  padding: 20px 0px;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+.join-us-haeding {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 134%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #eeeeee;
+}
+
+.careercomponent1-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 29px */
+
+  text-align: center;
+
+  color: #c5c5c5;
+}
+
+.join-the-team {
+  width: 163px;
+  height: 53px;
+  background: #ffffff;
+  border-radius: 3.53846px;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.9231px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #000000;
+  border: none;
+}
+
+.join-the-team:hover {
+  cursor: pointer;
+}
+.borderline {
+  border: 1px solid #ea9528;
+  width: 85%;
+  margin: 25px auto;
+}

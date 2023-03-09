@@ -1,0 +1,80 @@
+.position-heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  width: 260px;
+  height: 60px;
+  color: #000000;
+}
+.apply-button {
+  margin-top: 30px;
+  width: 162px;
+  height: 38px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  color: #ffffff;
+  background: #ea9528;
+  border-radius: 5px;
+  border: none;
+}
+
+.apply-button:hover {
+  cursor: pointer;
+}
+.explore-jobs-head h3 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 33.8554px;
+  line-height: 42px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.explore-jobs-head p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15.5171px;
+    line-height: 23px;
+    
+    color: #000000;
+     
+}
+.career-component3 {
+  background: #f5f5f5;
+  border-radius: 15px;
+  border: 9px solid #fffbf7;
+  padding: 30px 30px;
+  
+}
+.daysago-para {
+  font-family: "Kanit";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 35px;
+  color: #000000;
+}
+.looking-for-para {
+  margin: 30px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.6958px;
+  line-height: 19px;
+  color: #000000;
+}
+.loc-sal-para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12.6958px;
+  line-height: 28px;
+  color: #000000;
+}

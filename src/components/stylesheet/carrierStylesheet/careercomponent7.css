@@ -1,0 +1,52 @@
+.come-join-section {
+    max-width: 688px;
+    min-height: 293px;
+    background: #fae4c9;
+    box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(19.1038px);
+    border-radius: 8.49057px;
+    display: flex;
+    align-items: center;
+  }
+  .come-join-heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 120.2%;
+    text-align: center;
+    color: #232234;
+  }
+  .email-address-input input{
+      border: 1px solid #B7B7B7;
+      border-radius: 8px 0px 0px 8px;
+      background-color: #fae4c9;
+      width:317px;
+      height: 49px;
+      padding-left:30px;
+      outline: none;
+      font-family: 'Poppins';
+  }
+  .email-address-input input:focus{
+      border-radius: 8px 0px 0px 8px;
+      border:1px solid #ea9528;
+  }
+  .submit-button-career{
+      width:131px;
+      height: 49px;
+      background: #EA9528;
+      border-radius: 0px 8px 8px 0px;
+      border:none;
+      cursor: pointer;
+  }
+  
+  @media(max-width:768px){
+      .email-address-input input{
+          width:180px;
+          height: 37px;
+      }
+      .submit-button-career{
+          width:100px;
+          height: 37px;
+      }
+  }

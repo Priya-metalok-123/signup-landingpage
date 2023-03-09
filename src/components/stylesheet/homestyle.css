@@ -1,0 +1,1277 @@
+#w3a-modal{
+
+  margin-top:40px;
+  z-index: 120;
+}
+#w3a-modal .w3a-modal__content{
+  padding:0px 30px;
+}
+.background-lines {
+    background-image: url("../background-images/bg-lines.png");
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-color: #232234;
+    background-position: topright;
+    background-repeat: no-repeat;
+    padding-top: 5%;
+  }
+  .indias-heading-text {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 119.74%;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  .span-heading-text {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 119.74%;
+    color: #ea9528;
+  }
+  .play-button {
+    width: 146px;
+    height: 43px;
+    margin-right: 25px;
+  }
+  .teams-row {
+    background: linear-gradient(
+      196.95deg,
+      rgba(255, 255, 255, 0.4) -38.05%,
+      rgba(255, 255, 255, 0.1) 4.09%
+    );
+    box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(19.1038px);
+    border-radius: 8.49057px;
+    width: 100%;
+    height: 90px;
+    align-items: center;
+  }
+  .teams-row img {
+    margin: auto;
+    /* new add */
+    width: 100%;
+  }
+  .this-ipl-section {
+    width: 100%;
+    /* height: 438px; */
+    background: #232234;
+    color: #ffffff;
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 120.2%;
+  }
+  .this-ipl-para1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #dadada;
+    margin-top: 5%; 
+  }
+  .hitting p{
+    margin-top: 60px;
+    /* margin-bottom: 3%; */
+  }
+  /* .video-bg {
+    justify-content: center;
+    text-align: center;
+  } */
+  /* .video-bg img{
+    width: 70%;
+    margin: auto;
+  } */
+  .empty {
+    width: 100%;
+    height: 200px;
+  }
+  .hitting-section{
+  
+  }
+  /* .heres-section {
+    width: 100%;
+    height: 100vh;
+  } */
+  .heres-section{
+    margin-top: 250px;
+    margin-bottom: 150px;
+  }
+  .heres-how-sports-span-text{
+   color: #EA9528;
+  }
+  .heres-section .bg-line1 {
+    height: 271px;
+    border-top: 1px solid #ea9528;
+    border-right: 1px solid #ea9528;
+    border-bottom: 1px solid #3d352b;
+    border-radius: 6px;
+  }
+  .heres-section .bg-line2 {
+    background-image: url("../background-images/fan-line1.png");
+    background-repeat: no-repeat;
+  }
+  .heres-section .heres-how-heading {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: #2c2b44;
+  }
+  .exchange-text {
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 52px;
+    line-height: 65px;
+    background: linear-gradient(99.63deg, #EA9528 25.95%, #232234 135.05%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  
+    /* color: #ea9528; */
+  }
+  .left-lines {
+    background-image: url("../background-images/left-vector.png");
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: left -500px top -280px;
+    margin-top: -50px;
+  }
+  .how-text-heading {
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 40px;
+    line-height: 65px;
+    color: #2c2b44;
+    /* color: #000; */
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+  }
+  .screen-right-div {
+    align-items: center;
+    margin: auto;
+  }
+  .scren-imgsection{
+    position: relative;
+  }
+  .how-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #666666;
+    width: 88%;
+    margin-left: auto;
+  }
+  .install-series {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 14px; 
+    color: #ea9528;
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+  }
+  .install-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+  }
+  
+  .fast-secure-heading {  
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 65px; 
+    color: #2c2b44;
+    text-align: center;
+  }
+  .fast-secure-text {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    /* or 32px */
+    text-align: center;
+    color: #909090;
+  }
+  .fully-div {
+    width: 230px;
+    height: 238px;
+    background: #ffffff;
+    box-shadow: 0px 10px 40px rgba(234, 149, 40, 0.15);
+    border-radius: 20px;
+    margin-bottom: 15px;
+    
+  
+  }
+  .row-fast-secure-blocks{
+    padding:-270px;
+  }
+  .fully-text-heading {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    /* font-size: 24px; */
+    font-size: 21px;
+    line-height: 38px; 
+    color: #2c2b44; 
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .this-ipl-video{
+    /* width:100%; */
+    /* height: 70vh; */
+    width:869px;
+    position:absolute;
+    left:50%;
+    top:50px;
+    transform: translateX(-50%);
+  }
+  .buy-bg{
+    width: 100%;
+  }
+   
+  .heres-how-heading1 {
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 52px;
+    line-height: 65px;
+    color: #2c2b44;
+  
+  }
+  .exchange-text1 {
+    font-family: 'Clash Display', sans-serif;;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 52px;
+    line-height: 65px;
+    color: #ea9528;
+  }
+  .text-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px; 
+    color: #666666;
+  }
+  /* .fan1{
+      border: 1px solid hsl(34, 82%, 54%);
+  } */
+   
+  .fan h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 36px; 
+    color: #000000;
+    width: 90%;
+    margin: auto;
+  }
+  .fan p{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px; 
+  color: #666666;;
+  width: 90%;
+  margin: auto;
+  padding: 7px 5px 10px 5px;
+  }
+  .fan img{
+    padding: 10px 10px 0px 10px;
+  }
+  .fan1{
+    border: 1px solid hsl(34, 82%, 54%);
+    border-bottom:none;
+    border-radius: 6px;
+    position:relative;
+    height:21.562rem;
+  
+  }
+  .fan1::after{
+  position: absolute;
+  content: '';
+  top: 83px;
+  left: -2px;
+  height: 74%;
+  border-left: 5px solid #fffaf5;
+  }
+  .fan1:hover, .fan2:hover , .fan3:hover{
+  background-color: white;
+  }
+  .fan2 {
+  position: relative;
+  border:1px solid hsl(34, 82%, 54%);
+  border-left:none;
+  border-radius: 6px;
+  
+  }
+  .fan2::after{
+  content: "";
+  width:32%;
+  border:4px solid #FFFaf5;
+  position:absolute;
+  left:0px;
+  bottom:-4px;
+  }
+  .fan3{
+  position: relative;
+  border:1px solid hsl(34, 82%, 54%);
+  border-top:1px solid hsl(34, 82%, 54%);
+  border-radius: 6px;
+  }
+  .fan3::before{
+  position:absolute;
+  content: "";
+  left:-3px;
+  height: 65%;
+  border:4px solid #FFFaf5;
+  top:52px;
+  }
+  .fan3::after{
+  position:absolute;
+  content: "";
+  right:-3px;
+  height: 65%;
+  border:4px solid #FFFaf5;
+  top:52px;
+  }
+  
+  .how-img{
+    height: 40px;
+  }
+  .fully1{
+    text-align: start;
+    margin-top: 20%;
+    margin-left: 10%;
+  }
+  .fully1 p{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 19px;
+  /* or 143% */
+  
+  
+  /* General / Dark */
+  
+  color: #222222;
+  
+  
+  }
+  .fully1 img{
+    margin-bottom: 10px;
+  }
+  /* .roadmap-bg{
+    
+    border-radius: 15px;
+    height: auto;
+    margin-top:10% ;
+    
+  } */
+  /* .roadmap-video{
+    max-width: 100%;
+    height: 100vh;
+  } */
+  /* .number-speak{
+    height: 211px; 
+    background-color: #fae4c9;
+    box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(19.1038px);  
+    border-radius: 8.49057px;
+    position: absolute;
+    top:-90px;
+    left: 70px;
+  } */
+  /* .video-bg{
+    position: relative;
+  
+  } */
+  .number1{
+    width: 90%;
+    /* margin: auto; */
+    /* padding-top: 4%;  */
+  }
+  .number {
+    text-align-last: start;
+    padding-left: 75px;
+    
+  }
+  .number h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 120.2%; 
+    color: #232234;
+    text-align-last: start;
+    
+  }
+  /* .speak h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 120.2%; 
+    color: #232234;
+  } */
+  /* .speak p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%; 
+    color: #232234;
+  } */
+  /* .speak-b{
+  
+    border: 1px solid #ea972a;
+    border-image: linear-gradient(to bottom, rgba(108,219,141,0) 25%,rgba(35, 34, 52, 1) 25%,rgba(35, 34, 52, 1)
+     75%,rgba(108,219,141,0) 75%);
+      border-image-slice: 1;
+  } */
+  
+  .partner{
+    height: 500px;
+    
+  } 
+  .part-img{
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  .fiveire{
+    position: absolute;
+    top: 25%;
+    left:10%;
+  }
+  .unreal{
+    position: absolute;
+    top: 5%;
+    left:20%;
+  }
+  .polygon{
+    position: absolute;
+    top: -10%;
+    left:35%;
+  }
+  
+  
+  
+  .start-engine{
+    height: 500px;
+    background-image: url("../background-images/frame-2.png");
+    width: 100%;
+    background-size: 100% 100%;
+    /* background: #232234; */
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .start-eng{
+     /* margin-top: 45%; */
+     margin-left: 10%;
+  }
+  .start-eng h1{
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px; 
+    letter-spacing: 0.015em;
+    text-transform: capitalize; 
+    color: #FFFFFF;
+  }
+  .start-eng p{
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px; 
+    text-transform: capitalize; 
+    color: #FFFFFF;
+    padding-right:10px;
+  }
+  .start-eng-1 img{
+  
+  
+      width: 100%;
+      /* transform: scale(1.6); */
+      /* margin-right: 126px; */
+      /* margin-bottom:20px; */
+  
+  
+  
+    /* margin-left: 10px; */
+  }
+  .start-eng button{
+    width: 260px;
+    height: 60px; 
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+  }
+  .btn-h{
+    font-family: 'Clash Display', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px; 
+    text-transform: capitalize;
+    color: #000000; 
+    margin-top: 6%; 
+    margin-left:9% ;
+  
+  }
+  .start-engine-btn{
+    display: flex;
+    gap: 5%; 
+  }
+  .start-engine-btn .img1{
+    margin-top: 4%;
+  }
+  .start-engine-btn .img2{
+    margin-top: 6%;
+  }
+  @media screen and (min-width: 320px) and (max-width:900px){
+
+
+  .this-ipl-video{
+    /* width:100%; */
+    /* height: 70vh; */
+    width:100%;;
+  }
+
+}
+
+
+  @media screen and (min-width: 320px) and (max-width:770px){
+    .this-ipl-section {
+      width: 100%;
+      /* height: 450px; */
+      background: #232234;
+      color: #ffffff;
+      font-family: "Clash Display";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 35px;
+      line-height: 120.2%;
+    }
+    .start-engine{
+      height: auto;
+      width: 100%;
+    }
+    .start-eng{
+      /* margin-top: 10%; */
+      /* padding-top:72px !important; */
+      margin-left: 0;
+    }
+  
+    .how-text-heading {
+     
+      margin-top: -30px;
+      margin-bottom: 70px;
+    }
+    .start-eng-1 img{
+      width: 100%;
+      /* margin-left: 10px;   */
+    }
+    .install-series span {
+      white-space: pre-line;
+  
+    }
+    
+  
+  
+    /* new add */
+    .scren-imgsection{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .how-img{
+      width: 40px;
+      height: 40px;
+      margin-bottom:20px;
+    }
+    .mob-res{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .install-series{
+      display: flex;
+      gap: 15px;
+    }
+    .screen-line{
+      display: none;
+    }
+    .scroll-card {
+      height: auto !important;
+      /* margin-bottom: 5%; */
+    }
+    .how-text{
+      font-size: 16px;
+      text-align: center;
+    }
+    .install-text{
+      margin-top: -6px;
+    }
+    .fast-secure-heading{
+      font-size: 35px;
+    }
+    .fast-secure-text {
+      font-size: 16px;
+    }
+    .fully-text-heading{
+      font-size: 18px;
+    }
+  
+    .fan2 {
+      position: relative;
+      border:1px solid hsl(34, 82%, 54%);
+      /* border-left:none; */
+      /* border-bottom:none; */
+      border-radius: 6px;
+      }
+      .fan2::after{
+      content: "";
+      height:75%;
+      border-left:4px solid #fffaf5;
+      border-top:none;
+      border-bottom:none;
+      border-right: none;
+      position:absolute;
+      left:-2px;
+      bottom:-1px;
+      }
+      .fan3::before{
+      position:absolute;
+      content: "";
+      left:-3px;
+      height: 82%;
+      border:4px solid #fffaf5;
+      top:52px;
+      }
+      /* .fan3::after {
+        position: absolute;
+        content: "";
+        right: 214px;
+        height: 48%;
+        border: 4px solid #fffaf5;
+        transform: rotate(90deg);
+        top:219px;
+      } */
+      .number {
+     
+        padding-left: 15px !important;
+        
+      }
+      /* .video-playing-div{
+       padding-top: 150px;
+       height: 100%;
+       width: 100%;
+      } */
+      /* .roadmap-bg{
+        margin-top: 160px;
+      } */
+      .this-ipl-video{
+        width:100%;
+        /* height: 40vh; */
+      }
+      .heres-section{
+        margin-top: 70px;
+    
+        
+      }
+
+
+  }
+  
+  
+   .sc-bottom{
+    margin-bottom: 5%;
+   }
+  .screen{
+    width: 100%; 
+    padding-right: 20px;
+  }
+  /* @media screen and (min-width: 320px) and (max-width:1090px){
+    .fast{
+      width: 100% !important;
+    }
+  } */
+  @media screen and (min-width: 320px) and (max-width:768px){
+  
+  
+  
+  
+    .start-eng-1 img {
+      width: 100%;
+      /* transform: scale(1.3);
+      margin-right: 55px; */
+      margin-bottom: 30px;
+      
+  
+    }
+  
+  
+  
+  
+    /* .video-bg img{
+      width: 90%;
+      margin: auto;
+    } */
+    .indias-heading-text {
+      font-size: 35px; 
+    }
+    .mob-res{
+      margin-top: -40px;
+    }
+    .span-heading-text {
+      font-size: 35px;
+    }
+    .play-button {
+    width: 110px;
+    }
+    .teams-row{
+      height: auto;
+    }
+    .footer-bg {
+      height: auto;
+    }
+    .empty {
+      width: 100%;
+      height: 60px;
+    }
+    .heres-how-heading1, .exchange-text {
+      font-size: 45px;
+    }
+    /* .number-speak{
+      height: auto;
+      left: 5%;
+    } */
+    .fan h1{
+      font-size: 18px;
+    }
+    .fan p{
+      font-size: 16px;
+    } 
+   /* 21-01 */
+   .fast-btn button, .trade button{
+    width: 227px !important;
+    Height:52.46px !important;
+  }
+  .start-eng h1{
+    font-size: 30px;
+    line-height: 48px;
+  }
+  .start-eng p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .start-eng button{
+    width: 220px;
+    height: 50.77px;
+  }
+  .start-eng img{
+    width: 22px;
+  }
+  .btn-h {
+    margin-top: 5%;
+  }
+  .media-head{
+    font-size: 27px;
+    text-align: center;
+  }
+  .fast-btn1 img{
+    width: 18px;
+  }
+  /* .fast{
+    width: 100% !important;
+  } */
+  }
+  @media screen and (min-width: 610px) and (max-width:770px){
+    .fully-div{
+      width:32%;
+      height: auto;
+    }
+    .card1{
+      width: 100% !important;
+    }
+  }
+  @media(max-width:767px){
+    .fan2 {
+      border-bottom:none;
+    }
+  }
+  
+  @media screen and (min-width: 1390px){
+    .start-engine {
+      height: auto;
+    }
+    /* .start-en {
+      margin-top: 50%;
+      margin-left: 10%;
+      border:8px solid green;
+    } */
+  }
+  @media screen and (min-width: 1090px) and (max-width:2560px){
+    .fast{
+      width: 75%;
+    }
+  }
+  @media screen and (min-width: 1590px) and (max-width:1920px){
+    /* .video-bg {
+      width: 50%;
+      margin: auto;
+    } */
+  }
+  @media screen and (min-width: 1450px) and (max-width:1920px){
+    
+    
+  }
+  @media screen and (min-width: 1990px) and (max-width:2560px){
+    /* .video-bg {
+      width: 50%;
+      margin: auto;
+    } */
+    .empty {
+        width: 100%;
+        height: 100vh;
+      }
+    
+  }
+  
+  .input-group {
+    /* width: 75%; */
+    width: 65%;
+  }
+  .form-control {
+    display: block;
+    height: 39px;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #232234;
+    background-clip: padding-box;
+    border: 1px solid var(--bs-warning);
+    border-right: none;
+    appearance: none; 
+  }
+  .side{
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.35);
+    width: 2px;
+    margin: auto;
+  }
+  .btn-outline-warning {
+    border-left: none;
+  }
+   
+  
+  /* .video-playing-div{
+    width:100% ;
+   height:auto;
+  } */
+  /* .video-playing-div video{
+    width: 100%;
+  } */
+  
+  
+  /* for line  */
+  
+  .screen-line{
+    position:absolute;
+    width:1px;
+    height: 16rem; 
+    border-left:2px solid #EA9528;
+    left:50%;
+    top:30%;
+  }
+  .screen-line::after{
+    content: "";
+    display: block;
+    position:absolute;
+    width:1px;
+    height: 16rem; 
+    border-left:2px solid #EA9528;
+    margin-top: -30px;
+    left:-8px;
+    /* left:-16px; */
+  }
+  
+  
+  /* new added  */
+  .india-best-button {
+    display: flex;
+    gap: 5%;
+  }
+  .india-best-button button{
+    width: 260px;
+    height: 60px; 
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+  }
+  .best-btn{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  .best-btn h3{
+    font-family: 'Clash Display',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px; 
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 3%;
+  }
+  
+  .india-best-button .button2{
+    width: 175px;
+    height: 60px; 
+    background: #EA9528;
+    border: 1px solid #EA9528;
+    border-radius: 4px;
+  }
+  .india-best-button .button2 h4{
+    font-family: 'Clash Display',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.5128px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 2%;
+  }
+  
+  /* new added 16-01 */
+  .fast-button{
+    height: 150px;
+    text-align: center;
+      align-items: center;
+  }
+  .fast-btn{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+  }
+  .fast-btn button{
+    width: 260px;
+    height: 60px; 
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  .fast-btn1{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  .fast-btn1 h3{
+    font-family: 'Clash Display',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px; 
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 3%;
+  }
+  .trade button{
+    width: 260px;
+    height: 60px; 
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  .trade button h3{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.5128px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 2%;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width:768px){
+    .india-best-button button {
+      width: 190px;
+      height: 44px;
+    }
+    .best-btn h3{
+      font-size: 14px; 
+      line-height: 21px;
+    }
+    .best-btn img{
+      width: 18px;
+    }
+    .india-best-button .button2 {
+      width: 128.33px;
+      height: 44px;
+    }
+    .india-best-button .button2 h4{
+      font-size: 15px;
+      line-height: 18px;
+    }
+    .input-group {
+      width: 100%;
+    }
+    
+    /* add 27-01-23 */
+    /* .number-speak{
+     
+      padding: 10px !important;
+    } */
+    .number h1{
+      font-size: 27px;
+      text-align: start;
+    }
+    /* .speak h2{
+      font-size: 22px;
+    } */
+    /* .speak p{
+      font-size: 12px;
+    } */
+    /* .video-playing-div{
+      padding-top: 52%;
+    } */
+  }
+  
+  /* new added 18-01 */
+  .watch{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28px; 
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #DEDEDE; 
+  }
+  
+  .scroll-card{
+    height: 92px;
+    background: linear-gradient(196.95deg, #FFFBF6 -38.05%, rgba(255, 255, 255, 0.1) 4.09%);
+    box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(19.1038px);
+    border-radius: 8.49057px;
+  }
+  
+  .card1{
+    width: 90%;
+    margin: auto;
+    height: 52px;
+    /* height: 47px; */
+    background: #19222B;
+    border-radius: 4.24528px; 
+    margin-top: 6%;
+  
+  }
+  .delhi h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px; 
+    color: #FFFFFF;
+  }
+  .delhi p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8.49057px;
+    line-height: 10px;
+    color: #7C858E;
+  }
+  .delhi-g {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .delhi-g h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;  
+    color: #FFFFFF;
+  }
+  .delhi-g p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;  
+    color: #D90429;
+  }
+  .card11{
+    margin-top: 2%;
+    display: flex;
+  }
+  .dm-img{
+    margin-left: -10px;
+  }
+  .dem-img{
+    margin-left: -20px;
+  }
+  
+  nav a.active{
+    color: #EA9528;
+  }
+  
+  .home-back{ 
+    position: relative; 
+  }
+  .headbackk{ 
+    width: 100%;
+    background-position: topright;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px; 
+    z-index: 20;
+  }
+  main.sticky{
+  background-color: #232234 !important;
+  } 
+  main.sticky h3{
+    color: #fff;
+  }
+  
+  main.sticky header .nav-btn{
+    color: #fff;
+  }
+  main.sticky header .nav-close-btn{
+    /* color: #19222B; */
+    color: #b1b1b1;
+  }
+  
+  
+
+
+ 
+
+
+  @media (min-width: 640px) and (max-width: 640px) {
+    /* .heres-section{
+        margin-top: 330px;
+    
+        
+      } */
+
+  }
+  /* .video-bg {
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    position: relative;
+  }
+  .number-speak{
+    height: 211px; 
+    background-color: #fae4c9;
+    box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(19.1038px);  
+    border-radius: 8.49057px;
+    position: absolute;
+    top:-90px;
+    left: 70px;
+  }
+  @media screen and (min-width: 320px) and (max-width:768px){
+    .number-speak{
+      height: auto;
+      left: 5%;
+    }
+    .number-speak{
+      
+      padding: 10px !important;
+    }
+  } */
+  .parent-partner-section{
+    width:100%;
+    height:500px;
+  }
+  .accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    font-size: 15px !important;
+    font-family: 'Poppins' !important;
+}
+@media screen and (min-width: 320px) and (max-width:350px){
+  .this-ipl-video {
+    width: 100%;
+    /* height: 30vh; */
+    margin-top: -30px;
+}
+
+
+}
+
+
+
+
+
+@media screen and (min-width: 315px) and (max-width:430px){
+
+  .parent-partner-section{
+    width:100%;
+    height:0px !important;
+  }
+}
+@media screen and (min-width:740px) and (max-width:770px){
+  .parent-partner-section{
+    width:100%;
+    height:180px !important;
+  }
+
+}
+
+
+.map-video{
+  position:relative;
+}
+.apply-now-section{
+  position:relative;
+}
+.apply-now{
+  position: absolute;
+  top: 40%;
+  font-size: 15px;
+  right: 41%;
+  transform: translate(50%);
+  color: white;
+
+}

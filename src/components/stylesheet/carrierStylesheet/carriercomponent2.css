@@ -1,0 +1,85 @@
+
+
+.careercomponent2{
+    margin:50px auto;
+}
+.why-you-heading{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    color: #2C2B44;
+}
+.why-you-heading2{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    background: linear-gradient(99.63deg, #EA9528 25.95%, #232234 135.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    }
+
+.careercomponent2-para{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    /* or 155% */
+
+
+    /* max-width:350px; */
+    
+    color: #666666;
+}
+
+
+.why-you-side-heading  {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 23px;
+line-height: 36px;
+/* identical to box height, or 159% */
+
+
+color: #000000;
+
+}
+
+.why-you-section-img{
+    background-color: #EA9528;
+    width:72px;
+    height:72px;
+    /* padding:15px; */
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:25px;
+}
+
+
+.why-you-should-parent-2{ 
+    min-height:371px;
+
+    
+    /* border:2px solid red; */
+}
+
+
+@media(max-width:760px){
+    .why-you-should-parent-2{ 
+        min-height:224px;
+        /* border:2px solid red; */
+    }
+
+    
+.careercomponent2{
+    margin:80px auto;
+}
+}

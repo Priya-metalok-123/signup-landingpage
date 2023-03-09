@@ -1,0 +1,120 @@
+.bg-gallery-section {
+  background-color: #232234;
+
+  
+  /* background-image: url('../../background-images/bg-gallery.png');
+    background-repeat: no-repeat;
+    background-position:top right ;
+    background-size: 100% 100%; */
+}
+.community-div {
+  margin-top: 30px;
+  width: 100%;
+  height: 480px;
+  align-items: baseline;
+  text-align: center;
+  /* margin: auto; */
+  background-image: url('../../background-images/people-left.png'),url('../../background-images/peaople-right.png') ;
+  background-position: left -8px bottom -9px ,right -6px bottom -6px;
+  background-repeat: no-repeat;
+  background-size:300px 400px;
+  
+}
+.community-div h1 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 48px;
+  /* identical to box height, or 87% */
+  text-align: center;
+  color: #ffffff;
+}
+.gallery-heading{
+  font-family: 'Clash Display';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.community-div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  /* or 29px */
+  text-align: center;
+  color: #c9c9c9;
+}
+.icons-section {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+}
+/* shankar code  */
+
+
+
+/* --------------------------gallery-scrolling section---------------------------  */
+
+
+
+.gallery-section{
+  padding:0px;
+  margin:0px
+}
+
+.gallery-child{
+  padding:0px;
+  margin:0px;
+  /* border:3px solid red; */
+  height: 270px;
+}
+.gallery-child img{
+  width:100%;
+  height: 100%;
+  
+}
+@media screen and (min-width: 320px) and (max-width:780px){
+  .community-div h1 {
+    
+    font-size: 35px;
+    line-height: 48px;
+    /* identical to box height, or 87% */
+    
+  }
+  .community-div {
+   
+    /* margin: auto; */
+    background-image: url('../../background-images/people-left.png'),url('../../background-images/peaople-right.png') ;
+    background-position: left -8px bottom -9px ,right -6px bottom -6px;
+    background-repeat: no-repeat;
+    background-size:120px 200px;
+  }
+  .icons-section img{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    width:30px;
+  }
+  .community-div p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #c9c9c9;
+}
+
+}
+
+

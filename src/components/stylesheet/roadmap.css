@@ -1,0 +1,486 @@
+
+
+
+.road{
+    /* background-color:blue; */
+    background-color: #232234;
+}
+.roadmap {
+    height: 300px;
+    margin: auto;
+    text-align: center; 
+    padding-top: 120px;
+}
+.roadmap h1{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 134%; 
+    color: #FFFFFF;
+    
+}
+.roadmap-head{
+    margin-top: 120px;
+}
+
+.roadmap-head p{
+   padding-bottom: 40px;
+   padding-top: 10px;
+}
+.roadmap p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 134%; 
+    text-align: center;
+    color: #B9B9B9;
+   
+}
+.roadmap-underline{
+    border: 1px solid #ea9528;
+    height: 0;
+    margin: auto;  
+    width: 90%;
+}
+
+.phase{
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+
+
+.trading h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%; 
+    color: #FFFFFF;
+}
+.trading h1{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+.trading p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%; 
+    color: #FFFFFF;
+    /* width:226px; */
+}
+.trading-1 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%; 
+    color: #FFFFFF;
+
+}
+.trading-1 h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%; 
+    color: #FFFFFF;
+}
+.trading-1 h1{
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+/* for background images  */
+.loops-img img{
+    width: 100%;
+    height: 119%;
+    transform: scale(2);
+}
+.loops-img{
+    position:absolute;
+    width: 60%;
+    height: 80%;
+    /* border:3px solid red; */
+}
+/* new with responsive   */
+.road-map-section{
+    position:relative;
+
+    margin:200px auto;
+}
+.trading-padding{
+    padding-left:90px;
+}
+
+.box-img{
+    position:absolute;
+    
+}
+
+.phase1-img{
+    position:absolute;
+    top:-76px;
+    right: 0;
+}
+
+.phase1-img::after{
+    content:'';
+    width:78px;
+    height: 334px;
+    border-top:1px solid white;
+    border-right: 1px solid white;
+    border-radius: 0px 20px 0px 0px;
+    top:120px;
+    position:absolute;
+}
+
+
+
+
+
+/* section2  */
+.box2-img{
+    position:absolute;
+    right:0px;
+}
+.marketplace{
+    padding-left: 145px;
+}
+.phase2-img{
+    position:absolute;
+    top:-50px;
+}
+
+.border-second::after{
+    content: '';
+    width: 49%;
+    height: 334px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 20px 0px 0px 0px;
+    top: 57px;
+    left: 254px;
+    position: absolute;
+}
+
+/* section3  */
+
+.box3-img{
+    position:absolute;
+    right:132px;
+}
+.phase3-img{
+   
+    position:absolute;
+    left:-128px;
+    top:-64px;
+}
+
+.staking{
+    padding-left:10px;
+}
+
+.staking::after{
+    content: '';
+    width: 103px;
+    height: 315px;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 0px 20px 0px 0px;
+    top: 51px;
+    right: -55%;
+    position: absolute;
+}
+/* section4  */
+.box4-img{
+    position:absolute;
+    left: -65px;
+    top: -8px;
+}
+
+.phase4-img{
+    position:absolute;
+    top: -87px;
+    left:-80px;
+    /* right: 0px; */
+    /* margin-left: -50px; */
+}
+
+
+.animate-imgs{
+    /* border:1px solid red; */
+    animation:roadmap-imgs-animations 3s infinite;
+}
+
+@keyframes roadmap-imgs-animations{
+    33%{
+        transform: translateY(30px);
+    }
+    33%{
+        transform: translateY(0px);
+    }
+    33%{
+        transform: translateY(-30px);
+    }
+}
+
+@media(max-width:1024px){
+    .road-map-line-section{
+
+    padding-top:130px;
+    }
+
+
+    .trading h1 {
+        font-size: 35px;
+    }
+    .trading p{
+        width: 226px;
+        height: 205px;
+        font-size: 14px;
+    }
+    .phase1-img{
+        top:-166px;
+        left:15px;
+        width: 82px;
+    }
+    .phase1-img ,.phase2-img , .phase3-img , .phase4-img{
+        width: 82px;
+    }
+    .phase1-img img,.phase2-img img, .phase3-img img, .phase4-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .box-img{
+        width: 46px;
+    }
+    .box2-img{
+        width: 62px;
+    }
+    .box3-img{
+        width: 55px;
+        top:17px;
+        left:200px;
+    }
+   .box4-img{
+        width:84px;
+    }
+    .box-img img, .box2-img img,.box3-img img,.box4-img img{
+        width:100%;
+    }
+    .box-img{
+        position:absolute;
+        left: 233px;
+    }
+
+    .phase1-img::after{
+        content:'';
+        width:66vw;
+        height: 334px;
+        border-left:1px solid white ;
+        border-bottom: 1px solid white;
+        border-right:none ;
+        border-top:none;
+        border-radius:0px 0px 0px 20px;
+        top:190px;
+        left:0px;
+        position:absolute;
+    }
+
+ .border-second::after{
+    display: none;
+ }
+ .marketplace::before{
+    content: '';
+    width: 80%;
+    height: 70px;
+    border-right:1px solid white;
+    border-top:1px solid white;
+    /* border-top: none; */
+    border-left: none;
+    border-radius: 0px 20px 0px 0px;
+    top: -160px;
+    right: 0px;
+    position: absolute;
+}
+    .marketplace::after{
+        content: '';
+        width: 70%;
+        height: 386px;
+        border-right:1px solid white;
+        border-bottom:1px solid white;
+        border-top: none;
+        border-left: none;
+        border-radius: 0px 0px 20px 0px;
+        top: 68px;
+        right: 0px;
+        position: absolute;
+    }
+.merchandise ::after{
+    content: '';
+    width: 70%;
+    height: 386px;
+    border-right:1px solid white;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-radius: 0px 0px 20px 0px;
+    top: 68px;
+    right: 0px;
+    position: absolute;
+}
+
+
+    .staking::after{
+        content: '';
+        width: 93px;
+        height: 363px;
+        border-right: none;
+        border-top:none;
+        border-left:1px solid white;
+        border-bottom: 1px solid white;
+        border-radius: 0px 0px 0px 20px;
+        top: -1px;
+        left:-12px;
+        position: absolute;
+    }
+
+    .staking::before{
+        content: '';
+        width: 85%;
+        height: 50px;
+        /* border-right: none; */
+        /* border-top:none; */
+        border-top:1px solid white;
+        border-right: 1px solid white;
+        border-radius: 0px 20px 0px 0px;
+        bottom: -112px;
+        right:29px;
+        position: absolute;
+    }
+    .trading-padding{
+        padding-left: 35px;
+    }
+    .marketplace{
+        padding-left:0px;
+    }
+/* .merchandise{
+    padding-right: 30px;
+} */
+    .phase2-img{
+        top:-100px;
+        right: 0px;
+    }
+    .box2-img{
+        top:-95px;
+        left:0px;
+    }
+
+    .phase3-img{
+        top:-200px;
+        left:0px;
+    }
+   .phase4-img{
+    top:-108px;
+        left:70%;
+
+   }
+
+    .box4-img{
+        left: 0px;
+        top: -114px;
+    }
+    
+    /* .phase4-img{
+        top: -113px;
+       
+        right: 0px;
+    } */
+
+}
+
+@media(max-width:480px){
+
+
+  
+        .road-map-line-section{
+    
+        padding-top:210px;
+        }
+
+
+
+    .phase1-img::after{
+        content:'';
+        width:150px;
+        height: 334px;
+        border-left:1px solid white ;
+        border-bottom: 1px solid white;
+        border-right:none ;
+        border-top:none;
+        border-radius:0px 0px 0px 20px;
+        top:189px;
+        left:0px;
+        position:absolute;
+    }
+    /* .marketplace::after{
+        width:140px;
+        height: 340px;
+    } */
+
+    .staking::after{
+        height: 354px;
+    }
+
+    .staking::before{
+        bottom:-104px;
+    }
+}
+.download-paper{
+    
+    margin:180px auto;
+    /* border:2px solid red; */
+}
+
+.download-paper button{
+    width: 309px;
+    height: 60px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+    border:none;
+    border-radius: 3.99372px;
+}
+
+@media(max-width:768px){
+    .download-paper{
+        margin:60px auto 100px;
+    }
+    .download-paper button {
+        width: 294px;
+        height: 56.94px;
+        font-size: 17.4308px;
+    }
+
+}
+/* ------------------ borders --------------------- */
+
+

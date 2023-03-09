@@ -1,0 +1,504 @@
+.our-vision {
+  width: 100%;
+  /* height: 456px; */
+  left: 0px;
+  top: 0px;
+  background: #232234;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  background-image: url("../background-images/bg-lines1.png");
+  background-size: 100% 100%;
+  background-position: topright;
+}
+.our-v {
+  margin-top: 10%;
+  /* margin-left: 5%; */
+}
+.our-v h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 134%;
+  /* or 60px */
+  color: #eeeeee;
+}
+.our-v p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  /* or 32px */
+  color: #c5c5c5;
+}
+.our-v-btn {
+  margin-top: 10%;
+  display: flex;
+  gap: 15px;
+}
+.metalok {
+  min-height: 150px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.metalok-i{
+  width: 238px;
+  height: 319px;
+}
+
+.sports-lines{
+  position:relative;
+    border-right: 2px solid #EA9528;
+    ;
+   
+    height: 191px;
+    width: 10px;
+}
+
+.sports-lines::after{
+  top:-20px;
+  position:absolute;
+  content: "";
+  border-left:2px solid #EA9528;
+  display: block;
+  height: 100%;
+}
+
+
+.metalok-i img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.sports-log-heading{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 35px;
+line-height: 134%;
+/* identical to box height, or 47px */
+
+
+color: #414141;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.metalok-p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  /* or 29px */
+  color: #505050;
+}
+
+.work {
+  margin-bottom: 50px;
+}
+.want {
+  height: 285px;
+  background: #fae1c3;
+  /* background: linear-gradient(196.95deg, rgba(255, 255, 255, 0.4) -38.05%, rgba(255, 255, 255, 0.1) 4.09%); */
+  box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(19.1038px);
+  border-radius: 8.49057px;
+  margin: auto;
+  text-align: center;
+}
+.want-to {
+  margin-top: 5%;
+  margin-bottom: 6%;
+}
+.want-to h1 {
+  font-family: "Mukta", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 120.2%;
+  color: #232234;
+}
+.want-to p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  text-align: center;
+  color: #505050;
+}
+.want-to button {
+  width: 214px;
+  height: 49px;
+  background: #ea9528;
+  border-radius: 8px;
+  border: none;
+}
+.c-btn {
+  font-family: "Mukta", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120.2%;
+  color: #ffffff;
+  margin-top: 2%;
+}
+.c-btn a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120.2%;
+  color: #ffffff;
+}
+.contact-section {
+    margin-top: 120px;
+}
+.company-line-down{
+  border: 1px solid #EA9528;
+  width:95%;
+  margin: auto;
+}
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .our-v-btn img {
+    width: 40%;
+  }
+  .metalok {
+    height: auto;
+  }
+  .want {
+    height: auto;
+    width: 90%;
+  }
+  .our-vision {
+    width: 90%;
+  }
+
+  .our-v p {
+    font-size: 16px;
+  }
+
+  .our-v h1 {
+    font-size: 40px;
+  }
+}
+
+/* -------------------------------our-team-section  */
+
+.names {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  /* line-height: 72px; */
+  color: #414141;
+}
+.position {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #9f9f9f;
+}
+.our-team-section {
+  position: relative;
+  height: 800px;
+}
+
+.globe-car {
+  position: relative;
+  height: 600px;
+  padding: 0px;
+  /* display: flex;
+    align-items: center; */
+}
+
+.slick-slider {
+  overflow-x: hidden;
+}
+
+.slick-track {
+  margin: 30px auto;
+}
+.slide {
+  transform: scale(0.7);
+  transition: 0.8s;
+  filter: blur(0);
+  width: 20px;
+  height: 220px;
+  padding: 10px;
+  margin-left: -43vw;
+  margin-top: 150px;
+  z-index: -1;
+}
+.slide-active {
+  opacity: 1;
+  transform: scale(1.1);
+  filter: blur(0);
+  width: 40px;
+  height: 350px;
+  margin-left: -40vw;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px #ea9528;
+}
+
+.slide-section {
+  margin: auto;
+  align-items: center;
+}
+
+.slide-section img {
+  border-radius: 50%;
+  margin-left: 10px;
+  padding: 40px;
+}
+
+.team-back {
+  position: absolute;
+  width: 21vw;
+  height: 700px;
+  z-index: -3;
+  background-color: #ea9528;
+}
+
+.our-team-head {
+  position: absolute;
+  top: 24%;
+  left: 50%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #414141;
+  transform: translateX(-50%);
+}
+.slick-dots {
+  bottom: 50px !important;
+  padding: 0px 0px 0px 260px !important;
+}
+
+@media (max-width: 1300px) {
+  
+
+
+
+  
+/* .names{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  color: #414141;
+
+} */
+/* .position{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #9F9F9F;
+} */
+.our-team-section{
+  position:relative;
+  height: 454px;
+  
+}
+
+.globe-car{
+  position: relative;
+  height: 445px;
+  padding:0px;
+
+ 
+}
+
+
+/* .slick-slider{
+  overflow-x: hidden;
+
+} */
+
+.slick-track{
+  margin:30px auto;
+  
+}
+.slide{
+  transform: scale(.7);
+  transition: .8s;
+  filter: blur(0);
+  width: 220px;
+  height: 220px;
+  padding:10px;
+  margin-left:-43vw;
+  margin-top:70px;
+  z-index: -1;
+
+}
+.slide-active{
+  opacity: 1;
+  transform: scale(1.1);
+  filter: blur(0);
+  width:240px;
+  height: 240px;
+  margin-left:-40vw;
+  background-color: white;
+  box-shadow:0px 0px 3px 2px #EA9528;
+}
+.slide-section img{
+  border-radius: 50%;
+  margin-left:10px;
+  padding:0px;
+}
+
+.team-back{
+  position:absolute;
+  width: 21vw;
+  height: 444px;
+  z-index: -3;
+  background-color: #EA9528;
+
+}
+
+
+
+.our-team-head{
+  position:absolute;
+  top:27%;
+  left:50%;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #414141;
+  transform: translateX(-50%);
+}
+.slick-dots{
+  bottom:90px !important;
+  padding:0px 0px 0px 260px !important;
+}
+
+}
+
+
+
+@media (max-width: 1024px) {
+  .slide {
+    margin-left: -44vw;
+    margin-top: 70px;
+  }
+  .slide-active {
+    height: 220px;
+    margin-left: -40vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .our-team-head {
+    font-size: 25px;
+  }
+
+  .slide {
+    margin-left: -30vw;
+    margin-top: 70px;
+  }
+  .slide-active {
+    height: 220px;
+    margin-left: -30vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .our-team-head {
+    font-size: 25px;
+    top: -5% !important;
+  }
+  .slick-dots {
+    display: none !important;
+  }
+
+  .slide {
+    margin-left: 0px;
+    margin: auto;
+    margin-top: 70px;
+  }
+  .slide-active {
+    margin-left: 0px;
+  }
+  .team-back {
+    width: 50%;
+  }
+}
+
+/* ----------------------------contact us section  */
+
+.want-to-work-with-text {
+  font-family: "Poppins" !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+
+  text-align: center;
+
+  color: #505050;
+}
+
+@media (max-width: 768px) {
+  .contact-section {
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .address {
+    width: 100%;
+  }
+
+  .sports-lines {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact-form {
+    padding: 20px 5px;
+  }
+  .submit-btn {
+    width: 112px;
+    height: 30px;
+  }
+
+
+ 
+}

@@ -1,0 +1,24 @@
+/* .header-background{
+    background-color:#232234;
+} */
+.header-links{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    font-family: 'Mukta';
+    
+    color: #FFFFFF; 
+}
+.login-button{
+    
+    background: #EA9528;
+    border-radius: 7px; 
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 11.5827px;
+line-height: 17px;
+
+color: #232234;
+}

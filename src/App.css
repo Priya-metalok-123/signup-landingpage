@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    background: linear-gradient(254.11deg, #FFFBF6 10.61%, #FFFAF4 10.61%, rgba(255, 251, 246, 0) 100.28%);
+    width:100%;
+    height:auto;
+  }
+  @font-face {
+    font-family: 'Clash Display';   
+    src: local('Clash Display'),
+      url("./components/fonts/ClashDisplay-Semibold.ttf") format("truetype");
+  }

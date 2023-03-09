@@ -1,0 +1,28 @@
+.download-button {
+    display: flex;
+    gap: 5%;
+  }
+  .download-button button{
+    width: 260px;
+    height: 60px; 
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+  }
+  .down-btn{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+    justify-content: center;
+  }
+  .down-btn h3{
+    font-family: 'Clash Display',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px; 
+    text-transform: capitalize;
+    color: #000000;
+    margin-top: 3%;
+  }
+  

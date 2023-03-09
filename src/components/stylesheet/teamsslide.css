@@ -1,0 +1,89 @@
+.team-scroll-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(196.95deg, #FFFBF6 -38.05%, rgba(255, 255, 255, 0.1) 4.09%);
+  box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(19.1038px);
+  border-radius: 8.49057px;
+  height: 90px;
+
+}
+.team-scroll-section .slick-list{
+  height: 90px;
+  top:-8px;
+}
+.team-scroll-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 355px;  */
+  margin: auto;
+}
+
+.team-scroll-child {
+    width: 255px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #19222b;
+  color: white;
+  border-radius: 4px;
+  height: 47px;
+}
+.team-logo-img {
+  width: 30px;
+  height: 30px;
+}
+.team-logo-img img{
+  width:100%;
+  height: 100%;
+}
+
+.team-graph-img {
+  width: 42.45px;
+  height: 35.9px;
+  display: flex;
+  align-items: center;
+}
+
+.team-win-dollar .dollar {
+  margin: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.team-scroll-heading {
+  margin: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.team-win-dollar .percent {
+  margin: 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #d90429;
+}
+.team-name-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8.49057px;
+  line-height: 10px;
+  color: #7c858e;
+}
+@media(max-width:400px){
+  .team-scroll-parent{
+    width: auto;
+  }
+}

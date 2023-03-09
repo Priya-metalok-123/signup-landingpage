@@ -1,0 +1,49 @@
+.download-popup{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 300;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    
+    position:fixed;
+    
+    top:0;
+}
+
+.download-popup-child{
+    position: relative;
+    width: 320px;
+    height: 300px;
+    /* box-shadow: 37px 34px 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:2px solid #ea9528;
+    background-color: rgb(255, 255, 255,1);
+    opacity: 1;
+}
+
+.download-popup-child h1{
+    font-size: 26px;
+    padding:25px;
+    text-align: center;
+   color: #ea9528;
+
+}
+
+
+.download-pop{
+    position:absolute;
+    top:0px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+
+    font-family: 'Clash Display';
+    
+    
+}

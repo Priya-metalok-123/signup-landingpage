@@ -1,0 +1,195 @@
+
+  .video-bg {
+    /* justify-content: center; */
+    text-align: center;
+    /* height: 300px; */
+    position:relative;
+    min-height: 400px;
+  }
+  .number-speak{
+    min-height: 211px; 
+    background-color: #fae4c9;
+    box-shadow: 0px 3.39623px 20.3774px -0.849057px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(19.1038px);  
+    border-radius: 8.49057px;
+    position: absolute;
+    top:-188px;
+    left:50%;
+    
+    transform: translateX(-50%);
+    margin:auto;
+    z-index: 10;
+    align-items: center;
+    
+  }
+  .number {
+    text-align-last: start;
+    padding-left: 75px;
+    
+  }
+  .number h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 120.2%; 
+    color: #232234;
+    text-align-last: start;
+    
+  }
+  .speak h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 120.2%; 
+    color: #232234;
+  }
+  .speak p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%; 
+    color: #232234;
+  }
+  .speak-b{
+  
+    border: 1px solid #ea972a;
+    border-image: linear-gradient(to bottom, rgba(108,219,141,0) 25%,rgba(35, 34, 52, 1) 25%,rgba(35, 34, 52, 1)
+     75%,rgba(108,219,141,0) 75%);
+      border-image-slice: 1;
+  }
+ 
+  .roadmap-video{
+    max-width: 100%;
+    /* height: 100vh; */
+    position: relative;
+  }
+  .roadmap-bg{
+    /* background: linear-gradient(188.52deg, #232234 33.34%, #EA9528 637.34%); */
+    border-radius: 15px;
+    height: auto;
+    margin-top:200px ;
+    
+  }
+  
+ 
+ 
+  .video-playing-div{
+    width:100% ;
+   height:auto;
+  }
+  .video-playing-div video{
+    width: 100%;
+  }
+  
+ 
+  
+  @media screen and (min-width: 320px) and (max-width:770px){
+    
+      .number {
+     
+        padding-left: 15px !important;
+        
+      }
+      .video-playing-div{
+       /* padding-top: 150px; */
+       height: 100%;
+       width: 100%;
+      }
+      .roadmap-bg{
+        margin-top: 160px;
+      }
+      .roadmap-video{
+        max-width: 100%;
+        /* height: 100vh; */
+        /* margin-top: -290px; */
+      }
+  }
+  
+
+  @media screen and (min-width: 320px) and (max-width:768px){
+    .video-bg img{
+      width: 90%;
+      margin: auto;
+    }
+    
+   
+    
+  }
+  @media screen and (min-width: 610px) and (max-width:770px){
+   
+  }
+  
+  @media screen and (min-width: 1390px) and (max-width:2560px){
+    
+  }
+  @media screen and (min-width: 1090px) and (max-width:2560px){
+    
+  }
+  @media screen and (min-width: 1590px) and (max-width:1920px){
+    .video-bg img{
+      width: 50%;
+      margin: auto;
+    }
+  }
+  @media screen and (min-width: 1990px) and (max-width:2560px){
+    .video-bg img{
+      width: 35%;
+      margin: auto;
+    }
+  }
+  
+
+  @media screen and (min-width: 320px) and (max-width:768px){
+
+   
+    .number h1{
+      font-size: 27px;
+      text-align: start;
+    }
+    .speak h2{
+      font-size: 22px;
+    }
+    /* .video-playing-div{
+      padding-top: 52%;
+    } */
+  }
+  
+  /* new added 18-01 */
+
+ 
+
+     @media screen and (min-width:740px) and (max-width:770px){
+      .roadmap-video{
+        max-width: 100%;
+        /* height: 50vh; */
+        position: relative;
+        /* margin-top: -140px !important; */
+      }
+     }
+
+@media(max-width:700px){
+    .video-bg{
+      background-color:#232234;
+      min-height: 200px;
+    }
+    .this-ipl-video{
+      position:relative;
+    }
+
+
+  }
+
+  @media(max-width:1200px){
+  
+    .roadmap-bg{
+      margin-top: 420px;
+    }
+    .number-speak {
+        margin-top: -180px;
+    }
+  }
+
+ 
